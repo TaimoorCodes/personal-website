@@ -29,8 +29,7 @@ body, html {
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
-    display: block;
-    margin: 0 auto;
+    text-align: center;
 }
 
 img {
@@ -45,7 +44,7 @@ a {
 
 input {
     display: block;
-    margin: 15px auto;
+    margin: 0 auto;
     width: 160px;
     box-sizing: border-box;
     padding: 4px 8px;
@@ -56,6 +55,7 @@ input {
     background: none;
     border-radius: var(--image);
     font-family: var(--font);
+    margin-top: 10px;
 }
 
 ::placeholder {
@@ -71,7 +71,8 @@ button {
     font-weight: bold;
     box-sizing: border-box;
     display: block;
-    margin: 5px auto;
+    margin: 0 auto;
+    margin-top: 10px;
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
