@@ -33,6 +33,9 @@ body, html {
     margin: 0 auto;
 }
 
+ul {
+    display: block;
+
 img {
     width: 10%;
     border-radius: calc(var(--image) * 2);
