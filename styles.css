@@ -29,6 +29,8 @@ body, html {
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
+    display: block;
+    margin: 0 auto;
 }
 
 img {
@@ -43,7 +45,7 @@ a {
 
 input {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     width: 160px;
     box-sizing: border-box;
     padding: 4px 8px;
@@ -69,7 +71,7 @@ button {
     font-weight: bold;
     box-sizing: border-box;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
