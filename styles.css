@@ -29,7 +29,8 @@ body, html {
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
-    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 img {
