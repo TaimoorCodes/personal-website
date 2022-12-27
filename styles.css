@@ -35,7 +35,8 @@ body, html {
 
 li {
     display: block;
-
+}
+    
 img {
     width: 10%;
     border-radius: calc(var(--image) * 2);
